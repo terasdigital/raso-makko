@@ -21,7 +21,7 @@ export default function Kontak() {
             Ada Acara? Ada Pesta?
           </p>
           <p className="text-center text-[18px]">
-            Let's celebrate together! 🎊 <br />
+            Let&apos;s celebrate together! 🎊 <br />
             Hubungi Kami Untuk Detail Lebih Lanjut.
           </p>
           <ul className="text-[16px] text-center mt-4 space-y-2">
