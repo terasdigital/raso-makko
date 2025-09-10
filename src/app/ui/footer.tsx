@@ -2,7 +2,7 @@ import { Instagram, Facebook } from "react-feather";
 
 export default function Footer() {
   return (
-    <div className="bg-[#d4e8c3] text-[#103829] text-center p-4">
+    <div className="dark:bg-[#343541] dark:text-white bg-[#d4e8c3] text-[#103829] text-center p-4">
       <h1 className="font-bold text-2xl ">Connect With Us</h1>
       <div className="mb-2">
         <a

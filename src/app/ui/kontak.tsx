@@ -8,7 +8,7 @@ export default function Kontak() {
       <h1 className={`${chicle.className} text-[38px] pt-[5rem] text-center`}>
         Kontak Kami
       </h1>
-      <div className="bg-[#fae7bd] rounded-xl p-6 mt-6 mb-10 max-w-[65%] mx-auto flex justify-between items-center flex-wrap">
+      <div className="bg-[#fae7bd] dark:bg-[#343541] rounded-xl p-6 mt-6 mb-10 max-w-[65%] mx-auto flex justify-between items-center flex-col">
         <Image
           src={"/event.png"}
           width={150}
@@ -16,15 +16,15 @@ export default function Kontak() {
           alt="kontak raso makko"
           className="mx-auto mb-4 lg:w-[200px] lg:h-[200px] xl:w-[250px] xl:h-[250px] object-contain"
         />
-        <div className=" items-center mx-auto">
-          <p className="text-[30px] text-center font-semibold">
+        <div className=" m:mx-auto">
+          <p className="text-base md:text-[30px] text-center font-semibold">
             Ada Acara? Ada Pesta?
           </p>
-          <p className="text-center text-[18px]">
+          <p className="text-base text-center md:text-[18px]">
             Let&apos;s celebrate together! 🎊 <br />
             Hubungi Kami Untuk Detail Lebih Lanjut.
           </p>
-          <ul className="text-[16px] text-center mt-4 space-y-2">
+          <ul className="text-base md:text-[16px] text-center mt-4 space-y-2">
             <li className="flex items-center gap-2 justify-center">
               <MessageCircle />{" "}
               <a
